@@ -4,68 +4,6 @@
 
 # Neorg - An Organized Future
 
-<a href="https://neovim.io"> ![Neovim](https://img.shields.io/badge/Neovim%200.8+-brightgreen?style=for-the-badge) </a>
-<a href="https://discord.gg/T6EgTAX7ht"> ![Discord](https://img.shields.io/badge/discord-join-7289da?style=for-the-badge&logo=discord) </a>
-<a href="/LICENSE"> ![License](https://img.shields.io/badge/license-GPL%20v3-brightgreen?style=for-the-badge)</a>
-<a href="https://dotfyle.com/plugins/nvim-neorg/neorg"> ![Usage](https://dotfyle.com/plugins/nvim-neorg/neorg/shield?style=for-the-badge) </a>
-
-Your New Life Organization Tool - All in Lua
-
-[Summary](#summary)
-•
-[Tutorial](#-tutorial)
-•
-[Installation](#-installationquickstart)
-•
-[Setup](#-setup)
-•
-[Usage](#-usage)
-<br>
-[Modules](#-modules)
-•
-[Roadmap](/ROADMAP.md)
-•
-[Philosophy](#-philosophy)
-•
-[FAQ](#-faq)
-
-</div>
-
-<div align="center">
-
-<br>
-
-## Summary
-
-</div>
-
-Neorg (_Neo_ - new, _org_ - organization) is a Neovim plugin designed to reimagine organization as you know it.
-Grab some coffee, start writing some notes, let your editor handle the rest.
-
-### What is Neorg?
-
-Neorg is an all-encompassing tool based around structured note taking, project and task management, time
-tracking, slideshows, writing typeset documents and much more. The premise is that all of these features are
-built on top of a single base file format (`.norg`), which the user only has to learn once to gain access to
-all of Neorg's functionality.
-
-Not only does this yield a low barrier for entry for new users it also ensures that all features are integrated with each
-other and speak the same underlying language. The file format is built to be expressive and easy to parse,
-which also makes `.norg` files easily usable anywhere outside of Neorg itself.
-
-To learn more about the philosophy of the project check the [philosophy](#-philosophy) section.
-
-###### :exclamation: **IMPORTANT**: Neorg is young software. We consider it stable however be prepared for occasional breaking workflow changes. Make sure to pin the version of Neorg you'd like to use and only update when you are ready.
-
-## 🌟 Tutorial
-
-<div>
-
-<a href="https://www.youtube.com/watch?v=NnmRVY22Lq8&list=PLx2ksyallYzVI8CN1JMXhEf62j2AijeDa&index=1">
- <img src="https://img.youtube.com/vi/NnmRVY22Lq8/0.jpg" style="width:75%;">
-</a>
-
-</div>
 
 ## 🔧 Installation/Quickstart
 
