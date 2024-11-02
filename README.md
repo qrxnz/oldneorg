@@ -1,8 +1,11 @@
 <div align="center">
+
   <img src="res/neorg.svg" width=300>
-</div>
 
 # Neorg - An Organized Future
+
+</div>
+
 
 
 ## 🔧 Installation/Quickstart
