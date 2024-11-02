@@ -156,7 +156,7 @@ You can install it through your favorite plugin manager:
 
   ```lua
   use {
-      "nvim-neorg/neorg",
+      "qrxnz/oldneorg",
       config = function()
           require('neorg').setup {
               load = {
@@ -188,7 +188,7 @@ You can install it through your favorite plugin manager:
 
   ```lua
   use {
-      "nvim-neorg/neorg",
+      "qrxnz/oldneorg",
       -- tag = "*",
       ft = "norg",
       after = "nvim-treesitter", -- You may want to specify Telescope here as well
@@ -220,7 +220,7 @@ You can install it through your favorite plugin manager:
   <summary><a href="https://github.com/junegunn/vim-plug">vim-plug</a></summary>
 
   ```vim
-  Plug 'nvim-neorg/neorg' | Plug 'nvim-lua/plenary.nvim'
+  Plug 'qrxnz/oldneorg' | Plug 'nvim-lua/plenary.nvim'
   ```
 
   You can then put this initial configuration in your `init.vim` file:
@@ -250,7 +250,7 @@ You can install it through your favorite plugin manager:
   ```lua
   require("lazy").setup({
     {
-      "nvim-neorg/neorg",
+      "qrxnz/oldneorg",
       build = ":Neorg sync-parsers",
       dependencies = { "nvim-lua/plenary.nvim" },
       config = function()
@@ -274,26 +274,6 @@ You can install it through your favorite plugin manager:
 
   </details>
 
-### Treesitter
-
-###### _Be sure to have [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) installed on your system for this step!_
-Neorg will automatically attempt to install the parsers for you upon entering a `.norg` file if you have `core.defaults` loaded.
-A command is also exposed to reinstall and/or update these parsers: `:Neorg sync-parsers`.
-
-It is important to note that installation via this command isn't reproducible.
-There are a few ways to make it reproducible, but the recommended way is to set up an **update flag** for your plugin
-manager of choice. In packer, your configuration may look something like this:
-```lua
-use {
-    "nvim-neorg/neorg",
-    run = ":Neorg sync-parsers", -- This is the important bit!
-    config = function()
-        require("neorg").setup {
-            -- configuration here
-        }
-    end,
-}
-```
 
 With the above `run` key set, every time you update Neorg the internal parsers
 will also be updated to the correct revision.
